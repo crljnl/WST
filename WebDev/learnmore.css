@@ -1,0 +1,39 @@
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #252926;
+    color:whitesmoke;
+    font-family: 'Forum';
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    
+    
+}
+
+header {
+    background-color: #AF8C53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    color:whitesmoke;
+    transition: color 0.3s;
+    margin-right: 20px;
+}
+
+
+nav a:hover {
+    color: darkgrey;
+}
+main{
+    margin-left: 20px;
+}
+
+main li{
+    color: #AF8C53
+}

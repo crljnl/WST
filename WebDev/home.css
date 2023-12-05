@@ -1,0 +1,124 @@
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #252926;
+    color:whitesmoke;
+    font-family: 'Forum';
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #AF8C53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+nav a {
+    color:whitesmoke;
+    text-decoration:none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: darkgrey;
+}
+.section-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+h2 { 
+    position: relative;
+    top: 420px;
+    color: #AF8C53;
+    font-size: 28px;
+    text-align: center;
+    bottom: 0; 
+}   
+
+p {
+    position: relative;
+    color: #AF8C53;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    top: 410px;
+    bottom: 0;
+}
+
+.profile-picture {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url('image/Profile\ Pic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+    .learn-more {
+        position: relative;
+        background-color: #AF8C53; 
+        width: 100px;
+        border-radius: 30px;
+        padding: 5px 10px;
+        height: 28px;
+        top: 410px;
+        text-align: center;
+        left: 647px;
+        
+        
+    }
+    .learn-more a{
+        font-size: 17px;
+        color: rgb(217, 209, 209);
+    }
+    .cv{
+        position: absolute;
+        background-color: #AF8C53; 
+        width: 100px;
+        border-radius: 30px; 
+        padding: 5px 10px;
+        height: 28px;
+        top: 631px;
+        text-align: center;
+        left: 770px;
+        
+    }
+    .cv a{
+        font-size: 17px;
+        color: rgb(217, 209, 209);
+    }
+    
+
+    .contact-icons {
+        text-align: center;
+        position: relative;
+        top: 420px;
+
+    }
+    
+    .contact-icons a {
+        margin: 10px;
+        text-decoration: none;
+        color:#AF8C53;
+    }
+   
+    
+
+    
